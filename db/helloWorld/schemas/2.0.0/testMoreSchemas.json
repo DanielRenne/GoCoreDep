@@ -1,0 +1,29 @@
+{
+	"collections":
+	[
+		{
+			"name":"Cars",
+			"schema":
+			{
+				"name": "Car",
+				"fields":
+				[
+					{
+						"name":"id",
+						"type":"int",
+						"index":"primary"
+					},
+					{
+						"name":"color",
+						"type":"string",
+						"index":"unique"
+					},
+					{
+						"name":"bodyType",
+						"type":"string"
+					}
+				]
+			}
+		}
+	]
+}
