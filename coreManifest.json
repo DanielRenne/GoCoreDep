@@ -34,16 +34,9 @@
 		},
 		{
 			"version": "master",
-			"releaseURL": "https://github.com/DanielRenne/GoCore/archive/master.zip",
-			"releaseFileName":"GoCore-master",
+			"releaseURL": "https://github.com/DanielRenne/GoCoreDep/archive/master.zip",
+			"releaseFileName":"GoCoreDep-master",
 			"goDirectories":[
-				"src/core/crypto",
-				"src/core/dbServices",
-				"src/core/sqliteDBServices",
-				"src/core/extensions",
-				"src/core/httpExtensions",
-				"src/core/serverSettings",
-				"src/core/zip",
 				"src/code.google.com/p/go-charset",
 				"src/github.com/denisenkom/go-mssqldb",
 				"src/github.com/go-sql-driver",
