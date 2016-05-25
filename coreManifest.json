@@ -54,6 +54,8 @@
 				"src/github.com/stretchr/testify",
 				"src/golang.org/x/net",
 				"src/golang.org/x/crypto",
+				"src/golang/protobuf",
+				"src/golang/groupcache",
 				"src/gopkg.in/go-playground",
 				"src/gopkg.in/yaml.v2",
 				"src/helloWorld"
