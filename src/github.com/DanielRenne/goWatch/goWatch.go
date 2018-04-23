@@ -15,6 +15,13 @@ import (
 
 type WatcherConfig struct {
 	Watchers []Watcher `json:"watchers"`
+	Config   Config    `json:"config"`
+}
+
+type Config struct {
+	DelayBetweenFileChanges int      `json:"maxDelayBetweenMultipleFileChanges"`
+	DelayBetweenCommands    int      `json:"delayBetweenCommands"`
+	MassFileChangeCommand   []string `json:"massFileChangeCommand"`
 }
 
 type Watcher struct {
@@ -22,6 +29,9 @@ type Watcher struct {
 	Tasks       []string `json:"tasks"`
 	Extensions  []string `json:"extensions"`
 }
+
+var timeExecuted time.Time
+var firstTimeRan bool
 
 func main() {
 	c := make(chan os.Signal, 1)
@@ -40,7 +50,7 @@ func main() {
 
 	for i, _ := range config.Watchers {
 		watcher := config.Watchers[i]
-		go watch(watcher)
+		go watch(watcher, config.Config)
 	}
 
 	log.Println(config)
@@ -49,7 +59,7 @@ func main() {
 	<-c
 }
 
-func watch(w Watcher) {
+func watch(w Watcher, conf Config) {
 	// Make the channel buffered to ensure no event is dropped. Notify will drop
 	// an event if the receiver is not able to keep up the sending pace.
 	c := make(chan notify.EventInfo, 1)
@@ -99,12 +109,33 @@ func watch(w Watcher) {
 
 	//Run the Tasks if the proper extension was changed
 	if extensionChanged {
-		time.Sleep(time.Millisecond * 500)
+		if conf.DelayBetweenFileChanges > 0 && !firstTimeRan {
+			firstTimeRan = true
+			timeExecuted = time.Now()
+		} else if firstTimeRan && conf.DelayBetweenFileChanges > 0 {
+			duration := time.Since(timeExecuted)
+			if int(duration.Seconds()) < conf.DelayBetweenFileChanges {
+				log.Println("Returning out because another file change happened but we have not exceeded configured delay")
+				watch(w, conf)
+				return
+			}
+			firstTimeRan = false
+		}
 		for _, task := range w.Tasks {
-			output, _ := exec.Command(task).CombinedOutput()
-			log.Println("Successfully ran " + task + ":  " + string(output))
+			tsk := task
+			go func() {
+				log.Println("Running " + tsk)
+				cmd := exec.Command(tsk)
+				err := cmd.Run()
+				if err == nil {
+					log.Println("Successfully ran " + tsk)
+				} else {
+					log.Println("Failed to run " + tsk + " err: " + err.Error())
+				}
+			}()
+			time.Sleep(time.Second * time.Duration(conf.DelayBetweenCommands))
 		}
 	}
 
-	watch(w)
+	watch(w, conf)
 }
