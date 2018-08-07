@@ -113,6 +113,7 @@
 				"github.com/Masterminds/semver": "59c29afe1a994eacb71c833025ca7acf874bb1da",
 				"github.com/DanielRenne/goWatch": "e38ef9f780e69a606d09c30bab162aa6328f062e",
 				"github.com/bogdanovich/dns_resolver": "a8e42bc6a5b6c9a93be01ca204be7e17f7ba4cd2",
+				"github.com/mmcloughlin/professor": "6b97112ab8b362d27f7976815eb0d35da5249099",
 				"github.com/mgutz/str":"968bf66e3da857419e4f6e71b2d5c9ae95682dc4"
 			},
 			"releaseFileName":"GoCoreDep-master",
@@ -202,6 +203,7 @@
 				"src/xojoc.pw/useragent",
 				"src/honnef.co/go",
 				"src/helloWorld",
+				"github.com/mmcloughlin/professor",
 				"src/github.com/mgutz/str"
 			]
 		}
