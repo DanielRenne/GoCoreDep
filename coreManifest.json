@@ -114,6 +114,7 @@
 				"github.com/DanielRenne/goWatch": "e38ef9f780e69a606d09c30bab162aa6328f062e",
 				"github.com/bogdanovich/dns_resolver": "a8e42bc6a5b6c9a93be01ca204be7e17f7ba4cd2",
 				"github.com/davidrenne/professor": "cc6399dacc552ee22042b05cf9cbca31ca3e2c00",
+				"github.com/davecgh/go-spew/spew": "8991bc29aa16c548c550c7ff78260e27b9ab7c73",
 				"github.com/mgutz/str":"968bf66e3da857419e4f6e71b2d5c9ae95682dc4"
 			},
 			"releaseFileName":"GoCoreDep-master",
@@ -204,6 +205,7 @@
 				"src/honnef.co/go",
 				"src/helloWorld",
 				"github.com/davidrenne/professor",
+				"github.com/davecgh/go-spew/spew",
 				"src/github.com/mgutz/str"
 			]
 		}
