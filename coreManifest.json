@@ -110,6 +110,7 @@
 				"github.com/sendgrid/rest": "3ec51b4f1754e13e92409355851a0a82e9a06461",
 				"github.com/gin-contrib/sse": "22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae",
 				"github.com/go-mangos/mangos": "e3181ec4a2a556d80619da0f841e35c2007733af",
+				"gopkg.in/go-playground/webhooks.v5": "3fda9e72e1794aa20baca8d0edf5c73888d02eba",
 				"github.com/Masterminds/semver": "59c29afe1a994eacb71c833025ca7acf874bb1da",
 				"github.com/DanielRenne/goWatch": "e38ef9f780e69a606d09c30bab162aa6328f062e",
 				"github.com/bogdanovich/dns_resolver": "a8e42bc6a5b6c9a93be01ca204be7e17f7ba4cd2",
@@ -204,6 +205,7 @@
 				"src/xojoc.pw/useragent",
 				"src/honnef.co/go",
 				"src/helloWorld",
+				"gopkg.in/go-playground/webhooks.v5",
 				"github.com/davidrenne/professor",
 				"github.com/davecgh/go-spew/spew",
 				"src/github.com/mgutz/str"
