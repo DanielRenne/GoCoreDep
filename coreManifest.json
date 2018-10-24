@@ -1,42 +1,11 @@
 {
 	"versions":[
 		{
-			"version": "0.0.1",
-			"releaseURL": "https://github.com/DanielRenne/GoCore/archive/v0.0.1.zip",
-			"releaseFileName":"GoCore-0.0.1",
-			"goDirectories":[
-				"src/core/crypto",
-				"src/core/dbServices",
-				"src/core/sqliteDBServices",
-				"src/core/extensions",
-				"src/core/httpExtensions",
-				"src/core/serverSettings",
-				"src/core/zip",
-				"src/code.google.com/p/go-charset",
-				"src/github.com/denisenkom/go-mssqldb",
-				"src/github.com/go-sql-driver",
-				"src/github.com/gorilla/websocket",
-				"src/github.com/mattn/go-sqlite3",
-				"src/github.com/boltdb/bolt",
-				"src/github.com/asdine/storm",
-				"src/github.com/fatih/color",
-				"src/github.com/fatih/structs",
-				"src/github.com/dgrijalva/jwt-go",
-				"src/github.com/gin-gonic/gin",
-				"src/github.com/golang/protobuf",
-				"src/github.com/manucorporat/sse",
-				"src/github.com/Jeffail/gabs",
-				"src/golang.org/x/net",
-				"src/gopkg.in/go-playground",
-				"src/gopkg.in/yaml.v2",
-				"src/helloWorld",
-				"src/github.com/mgutz/str"
-			]
-		},
-		{
 			"version": "master",
 			"releaseURL": "https://github.com/DanielRenne/GoCoreDep/archive/master.zip",
 			"revs":{
+				"github.com/davidrenne/redmine": "85281d99abe9e5a87824c4718c3432b5ba60ffd5",
+				"github.com/AsGz/httpAuthClient": "f04e6143e1ca3fdc3b56fa036e6fda4560ebb7b2",
 				"github.com/boltdb/bolt": "94c8db596809690a3f7046fa83c7b0dda13a3222",
 				"github.com/Jeffail/gabs": "855034b6b7a3b7144977efcaefe72d2c64b0d039",
 				"github.com/utrack/gin-csrf": "63c0ef5eca6cc70a0cd93a8b2ca8a9e2b860d155",
@@ -205,10 +174,12 @@
 				"src/xojoc.pw/useragent",
 				"src/honnef.co/go",
 				"src/helloWorld",
-				"gopkg.in/go-playground/webhooks.v5",
-				"github.com/davidrenne/professor",
-				"github.com/davecgh/go-spew/spew",
-				"src/github.com/mgutz/str"
+				"src/gopkg.in/go-playground/webhooks.v5",
+				"src/github.com/davidrenne/professor",
+				"src/github.com/davecgh/go-spew/spew",
+				"src/github.com/mgutz/str",
+				"src/github.com/AsGz/httpAuthClient",
+				"src/github.com/davidrenne/redmine"
 			]
 		}
 	]
