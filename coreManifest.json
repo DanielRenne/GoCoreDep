@@ -41,7 +41,6 @@
 				"github.com/gin-gonic/contrib": "547e518040cfb96576b507d2f26779ab9c6fc829",
 				"github.com/gorilla/websocket": "e8f0f8aaa98dfb6586cbdf2978d511e3199a960a",
 				"github.com/go-stack/stack": "100eb0c0a9c5b306ca2fb4f165df21d80ada4b82",
-				"github.com/DanielRenne/GoCore": "35204c366f0fa8c6ccbb7cea2d041558d1e27f5c",
 				"github.com/coreos/bbolt": "af9db2027c98c61ecd8e17caa5bd265792b9b9a2",
 				"github.com/denisenkom/go-mssqldb": "fbf0a491e5ec011522c8870da9b0553135e2f9da",
 				"github.com/gorilla/context": "01ef6ff48fdcdcb29ae84f90f10f33dac24845a0",
