@@ -4,6 +4,7 @@
 			"version": "master",
 			"releaseURL": "https://github.com/DanielRenne/GoCoreDep/archive/master.zip",
 			"revs":{
+				"golang.org/x/sys": "b09406accb4736d857a32bf9444cd7edae2ffa79",
 				"golang.org/x/net": "491137f692577e390404f177a0515c9f86f79754",
 				"golang.org/x/oauth2": "0f29369cfe4552d0e4bcddc57cc75f4d7e672a33",
 				"github.com/davidrenne/redmine": "85281d99abe9e5a87824c4718c3432b5ba60ffd5",
@@ -166,6 +167,7 @@
 				"src/github.com/davidrenne/heredoc",
 				"src/github.com/davidrenne/zeroconf",
 				"src/golang.org/x/net",
+				"src/golang.org/x/sys",
 				"src/golang.org/x/image",
 				"src/golang.org/x/text",
 				"src/golang.org/x/crypto",
