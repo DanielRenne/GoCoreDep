@@ -52,7 +52,7 @@
 				"github.com/fatih/camelcase": "f6a740d52f961c60348ebb109adde9f4635d7540",
 				"github.com/dchest/uniuri": "8902c56451e9b58ff940bbe5fec35d5f9c04584a",
 				"github.com/stretchr/testify": "d77da356e56a7428ad25149ca77381849a6a5232",
-				"github.com/golang/text": "ede1cb9f9f2f84c3bace9ca113fd740fc916cdd0",
+				"github.com/golang/text": "3d0f7978add91030e5e8976ff65ccdd828286cba",
 				"github.com/fatih/structs": "dc3312cb1a4513a366c4c9e622ad55c32df12ed3",
 				"github.com/nfnt/resize": "891127d8d1b52734debe1b3c3d7e747502b6c366",
 				"github.com/MakeNowJust/heredoc": "1d91351acdc1cb2f2c995864674b754134b86ca7",
