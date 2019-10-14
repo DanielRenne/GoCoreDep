@@ -4,6 +4,7 @@
 			"version": "master",
 			"releaseURL": "https://github.com/DanielRenne/GoCoreDep/archive/master.zip",
 			"revs":{
+				"golang.org/x/oauth2": "0f29369cfe4552d0e4bcddc57cc75f4d7e672a33",
 				"github.com/davidrenne/redmine": "85281d99abe9e5a87824c4718c3432b5ba60ffd5",
 				"github.com/AsGz/httpAuthClient": "f04e6143e1ca3fdc3b56fa036e6fda4560ebb7b2",
 				"github.com/boltdb/bolt": "94c8db596809690a3f7046fa83c7b0dda13a3222",
@@ -89,6 +90,7 @@
 			},
 			"releaseFileName":"GoCoreDep-master",
 			"goDirectories":[
+				"src/golang.org/x/oauth2",
 				"src/code.google.com/p/go-charset",
 				"src/github.com/denisenkom/go-mssqldb",
 				"src/github.com/go-sql-driver",
