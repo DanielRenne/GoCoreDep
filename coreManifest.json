@@ -65,7 +65,7 @@
 				"github.com/altipla-consulting/i18n-dateformatter": "d7d6ed4b87fb363b3f7d7ae29f6b6912bb5c8c5d",
 				"github.com/rjeczalik/notify": "629144ba06a1c6af28c1e42c228e3d42594ce081",
 				"github.com/gorilla/sessions": "1bbba13ba476e132b5a0739b18f1653c3e57d3c1",
-				"github.com/golang/protobuf": "7390af9dcd3c33042ebaf2474a1724a83cf1a7e6",
+				"github.com/golang/protobuf": "1680a479a2cfb3fa22b972af7e36d0a0fde47bf8",
 				"github.com/felixge/tcpkeepalive": "5bb0b2dea91e0de550022159b9571aafc72c08ba",
 				"github.com/gopherjs/gopherjs": "45518c130e5bd1525f20110830a4986365a153de",
 				"github.com/cenkalti/backoff": "5d150e7eec023ce7a124856b37c68e54b4050ac7",
