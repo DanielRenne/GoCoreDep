@@ -4,6 +4,9 @@
 			"version": "master",
 			"releaseURL": "https://github.com/DanielRenne/GoCoreDep/archive/master.zip",
 			"revs":{
+				"google.golang.org/grpc": "0859afa33d84958d212668cdcfe8eba123461649",
+				"go.opencensus.io": "fa651b05963cfb6060755dc887e7d156ba66e792",
+				"github.com/googleapis/gax-go/v2": "a170e83f27ee4e20c66e51b66a99a4a349a1b75a",
 				"cloud.google.com/go": "b9197a057a6cb1129f29cd21ca11d1bb043666d1",
 				"google.golang.org/api": "5e0e3f4a3bb8f1c7d2bf1465670c5c0b3c45c277",
 				"golang.org/x/sys": "b09406accb4736d857a32bf9444cd7edae2ffa79",
@@ -93,6 +96,9 @@
 			},
 			"releaseFileName":"GoCoreDep-master",
 			"goDirectories":[
+				"src/google.golang.org/grpc",
+				"src/go.opencensus.io",
+				"src/github.com/googleapis/gax-go/v2",
 				"src/cloud.google.com/go",
 				"src/golang.org/x/oauth2",
 				"src/google.golang.org/api",
