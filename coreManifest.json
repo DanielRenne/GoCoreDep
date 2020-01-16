@@ -4,6 +4,9 @@
 			"version": "master",
 			"releaseURL": "https://github.com/DanielRenne/GoCoreDep/archive/master.zip",
 			"revs":{
+				"github.com/sigurn/utils": "e1fefb11a1443cb504cb88b973005f995b085de6",
+				"github.com/sigurn/crc16": "da416fad5162ac0f3338ba24dccdb26e4da22485",
+				"github.com/sigurn/crc8": "e55481d6f45c5a8f040343bace9013571dae103e",
 				"google.golang.org/genproto/googleapis/rpc/status": "548a555dbc03994223efbaba0090152849259498",
 				"google.golang.org/grpc": "0859afa33d84958d212668cdcfe8eba123461649",
 				"go.opencensus.io": "fa651b05963cfb6060755dc887e7d156ba66e792",
@@ -195,7 +198,10 @@
 				"src/github.com/davecgh/go-spew/spew",
 				"src/github.com/mgutz/str",
 				"src/github.com/AsGz/httpAuthClient",
-				"src/github.com/davidrenne/redmine"
+				"src/github.com/davidrenne/redmine",
+				"src/github.com/sigurn/utils",
+				"src/github.com/sigurn/crc16",
+				"src/github.com/sigurn/crc8"
 			]
 		}
 	]
