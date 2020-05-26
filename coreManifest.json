@@ -41,7 +41,7 @@
 				"github.com/hpcloud/tail": "faf842bde7ed83bbc3c65a2c454fae39bc29a95f",
 				"github.com/satori/go.uuid": "5bf94b69c6b68ee1b541973bb8e1144db23a194b",
 				"github.com/djherbis/atime": "89517e96e10b93292169a79fd4523807bdc5d5fa",
-				"github.com/golang/groupcache": "72d04f9fcdec7d3821820cc4a6f150eae553639a",
+				"github.com/golang/groupcache": "8c9f03a8e57eb486e42badaed3fb287da51807ba",
 				"github.com/davidrenne/zeroconf": "6d4d3bb3ecab49dad467721705817a85989f4133",
 				"github.com/tatsushid/go-fastping": "d7bb493dee3e090e2ffb6914adddf17c1e7c026c",
 				"github.com/DanielRenne/mangosServer": "97d567a0f5904cba90fe68830777b316075f0baf",
