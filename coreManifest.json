@@ -4,6 +4,7 @@
 			"version": "master",
 			"releaseURL": "https://github.com/DanielRenne/GoCoreDep/archive/master.zip",
 			"revs":{
+				"github.com/sfreiberg/gotwilio": "47a95c1c632a01f3bd644cb43687fd21489211fd",
 				"github.com/sigurn/utils": "e1fefb11a1443cb504cb88b973005f995b085de6",
 				"github.com/sigurn/crc16": "da416fad5162ac0f3338ba24dccdb26e4da22485",
 				"github.com/sigurn/crc8": "e55481d6f45c5a8f040343bace9013571dae103e",
@@ -109,6 +110,7 @@
 				"src/golang.org/x/oauth2",
 				"src/google.golang.org/api",
 				"src/code.google.com/p/go-charset",
+				"src/github.com/sfreiberg/gotwilio",
 				"src/github.com/denisenkom/go-mssqldb",
 				"src/github.com/go-sql-driver",
 				"src/github.com/gorilla/context",
