@@ -4,6 +4,7 @@
 			"version": "master",
 			"releaseURL": "https://github.com/DanielRenne/GoCoreDep/archive/master.zip",
 			"revs":{
+				"github.com/kevinburke/go.uuid": "d8da80a9dcbb2e579198ff4593e8837a1963f570",
 				"github.com/kevinburke/twilio-go": "ac4e42b98b94bc2395d0ac67bcbbb8bc257f9ac1",
 				"github.com/sfreiberg/rest": "0d2892b400f81cdfb979e2f718e6070fae17a507",
 				"github.com/sfreiberg/go-types": "f2d4aea18a7a1f5e91b1e7afaaa2459213dff6f5",
@@ -113,6 +114,7 @@
 				"src/golang.org/x/oauth2",
 				"src/google.golang.org/api",
 				"src/code.google.com/p/go-charset",
+				"src/github.com/kevinburke/go.uuid",
 				"src/github.com/kevinburke/twilio-go",
 				"src/github.com/kevinburke/rest",
 				"src/github.com/kevinburke/go-types",
