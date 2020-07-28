@@ -4,6 +4,7 @@
 			"version": "master",
 			"releaseURL": "https://github.com/DanielRenne/GoCoreDep/archive/master.zip",
 			"revs":{
+				"golang.org/x/sync": "6e8e738ad208923de99951fe0b48239bfd864f28",
 				"github.com/kevinburke/go.uuid": "d8da80a9dcbb2e579198ff4593e8837a1963f570",
 				"github.com/kevinburke/twilio-go": "ac4e42b98b94bc2395d0ac67bcbbb8bc257f9ac1",
 				"github.com/sfreiberg/rest": "0d2892b400f81cdfb979e2f718e6070fae17a507",
@@ -111,6 +112,7 @@
 				"src/go.opencensus.io",
 				"src/github.com/googleapis/gax-go/v2",
 				"src/cloud.google.com/go",
+				"src/golang.org/x/sync",
 				"src/golang.org/x/oauth2",
 				"src/google.golang.org/api",
 				"src/code.google.com/p/go-charset",
