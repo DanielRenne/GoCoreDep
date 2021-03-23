@@ -4,6 +4,8 @@
 			"version": "master",
 			"releaseURL": "https://github.com/DanielRenne/GoCoreDep/archive/master.zip",
 			"revs":{
+				"github.com/koofr/pb": "1389bea13f8d4dd67e73ad084563b05eef36d06a",
+				"github.com/koofr/go-cryptoutils": "fe224388747f833c92925c933f6e3dbf2765e983",
 				"github.com/koofr/goevent": "060d2fb163eb8de8a9279a52e4d1e01223e4ec48",
 				"github.com/koofr/go-ioutils": "1513bca3a02fc9d99ced8351f2edd7d72ed8c095",
 				"github.com/jehiah/go-strftime": "1d33003b386959af197ba96475f198c114627b5e",
@@ -114,6 +116,8 @@
 				"src/google.golang.org/genproto/googleapis/rpc/status",
 				"src/google.golang.org/grpc",
 				"src/go.opencensus.io",
+				"src/github.com/koofr/pb",
+				"src/github.com/koofr/go-cryptoutils",
 				"src/github.com/koofr/goevent",
 				"src/github.com/koofr/go-ioutils",
 				"src/github.com/jehiah/go-strftime",
