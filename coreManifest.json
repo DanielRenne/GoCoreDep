@@ -4,6 +4,7 @@
 			"version": "master",
 			"releaseURL": "https://github.com/DanielRenne/GoCoreDep/archive/master.zip",
 			"revs":{
+				"github.com/Azure/go-ntlmssp": "66371956d46c8e2133a2b72b3d320e435465011f",
 				"github.com/sigurn/utils": "e1fefb11a1443cb504cb88b973005f995b085de6",
 				"github.com/sigurn/crc16": "da416fad5162ac0f3338ba24dccdb26e4da22485",
 				"github.com/sigurn/crc8": "e55481d6f45c5a8f040343bace9013571dae103e",
@@ -102,6 +103,7 @@
 			"goDirectories":[
 				"src/google.golang.org/genproto/googleapis/rpc/status",
 				"src/google.golang.org/grpc",
+				"src/github.com/Azure/go-ntlmssp",
 				"src/go.opencensus.io",
 				"src/github.com/googleapis/gax-go/v2",
 				"src/cloud.google.com/go",
