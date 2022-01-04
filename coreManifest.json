@@ -4,6 +4,7 @@
 			"version": "master",
 			"releaseURL": "https://github.com/DanielRenne/GoCoreDep/archive/master.zip",
 			"revs":{
+				"github.com/gin-contrib/secure": "215594205b22eb14f92ff284d694d7aba552f13d",
 				"github.com/Azure/go-ntlmssp": "66371956d46c8e2133a2b72b3d320e435465011f",
 				"github.com/koofr/pb": "1389bea13f8d4dd67e73ad084563b05eef36d06a",
 				"github.com/koofr/go-cryptoutils": "fe224388747f833c92925c933f6e3dbf2765e983",
@@ -119,6 +120,7 @@
 				"src/google.golang.org/grpc",
 				"src/github.com/Azure/go-ntlmssp",
 				"src/go.opencensus.io",
+				"src/github.com/gin-contrib/secure",
 				"src/github.com/koofr/pb",
 				"src/github.com/koofr/go-cryptoutils",
 				"src/github.com/koofr/goevent",
