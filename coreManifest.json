@@ -28,7 +28,7 @@
 				"github.com/googleapis/gax-go/v2": "a170e83f27ee4e20c66e51b66a99a4a349a1b75a",
 				"cloud.google.com/go": "b9197a057a6cb1129f29cd21ca11d1bb043666d1",
 				"google.golang.org/api": "5e0e3f4a3bb8f1c7d2bf1465670c5c0b3c45c277",
-				"golang.org/x/sys": "b09406accb4736d857a32bf9444cd7edae2ffa79",
+				"golang.org/x/sys": "22a9840ba4d7f9769592a29c2d9b1d5865dea066",
 				"golang.org/x/net": "491137f692577e390404f177a0515c9f86f79754",
 				"golang.org/x/oauth2": "0f29369cfe4552d0e4bcddc57cc75f4d7e672a33",
 				"github.com/davidrenne/redmine": "85281d99abe9e5a87824c4718c3432b5ba60ffd5",
@@ -112,7 +112,8 @@
 				"github.com/davidrenne/professor": "cc6399dacc552ee22042b05cf9cbca31ca3e2c00",
 				"github.com/davecgh/go-spew/spew": "8991bc29aa16c548c550c7ff78260e27b9ab7c73",
 				"github.com/mgutz/str":"968bf66e3da857419e4f6e71b2d5c9ae95682dc4",
-				"github.com/soniah/gosnmp":"16be3a6124d6f7d3bd6d032603ba3f56bd0c8a38"
+				"github.com/soniah/gosnmp":"16be3a6124d6f7d3bd6d032603ba3f56bd0c8a38",
+				"go.bug.st/serial":"7ca3f7d1cdebc6a18ac24158e465ba921413ea31"
 			},
 			"releaseFileName":"GoCoreDep-master",
 			"goDirectories":[
@@ -233,7 +234,8 @@
 				"src/github.com/sigurn/utils",
 				"src/github.com/sigurn/crc16",
 				"src/github.com/sigurn/crc8",
-				"src/github.com/soniah/gosnmp"
+				"src/github.com/soniah/gosnmp",
+				"go.bug.st/serial"
 			]
 		}
 	]
