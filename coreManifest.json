@@ -235,7 +235,7 @@
 				"src/github.com/sigurn/crc16",
 				"src/github.com/sigurn/crc8",
 				"src/github.com/soniah/gosnmp",
-				"go.bug.st/serial"
+				"src/go.bug.st/serial"
 			]
 		}
 	]
