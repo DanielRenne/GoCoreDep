@@ -114,7 +114,9 @@
 				"github.com/mgutz/str":"968bf66e3da857419e4f6e71b2d5c9ae95682dc4",
 				"github.com/soniah/gosnmp":"16be3a6124d6f7d3bd6d032603ba3f56bd0c8a38",
 				"go.bug.st/serial":"7ca3f7d1cdebc6a18ac24158e465ba921413ea31",
-				"github.com/creack/goselect": "b3ef940521d467b70c41bdb00646b78bccff3ca4"
+				"github.com/creack/goselect": "b3ef940521d467b70c41bdb00646b78bccff3ca4",
+				"github.com/google/go-cmp/cmp":"f144a35ed4ac538fae93fa3783175108738f71b9",
+				"firebase.google.com/go": "bb055ed1cfbe6224367c63caedc4ba72f1437dcd"
 			},
 			"releaseFileName":"GoCoreDep-master",
 			"goDirectories":[
@@ -237,7 +239,9 @@
 				"src/github.com/sigurn/crc8",
 				"src/github.com/soniah/gosnmp",
 				"src/go.bug.st/serial",
-				"src/github.com/creack/goselect"
+				"src/github.com/creack/goselect",
+				"src/github.com/google/go-cmp/cmp",
+				"firebase.google.com/go"
 			]
 		}
 	]
