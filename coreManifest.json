@@ -4,6 +4,7 @@
 			"version": "master",
 			"releaseURL": "https://github.com/DanielRenne/GoCoreDep/archive/master.zip",
 			"revs":{
+				"github.com/forPelevin/gomoji": "9d94a53df4adc810fa6ca7bc0c3e34601fac62f7",
 				"github.com/davidrenne/fxml": "751a3306a56c5b94354e21688e0195e05e8e42ad",
 				"github.com/gin-contrib/secure": "215594205b22eb14f92ff284d694d7aba552f13d",
 				"github.com/Azure/go-ntlmssp": "66371956d46c8e2133a2b72b3d320e435465011f",
@@ -121,6 +122,7 @@
 			},
 			"releaseFileName":"GoCoreDep-master",
 			"goDirectories":[
+				"src/github.com/forPelevin/gomoji",
 				"src/github.com/davidrenne/fxml",
 				"src/google.golang.org/genproto/googleapis/rpc/status",
 				"src/google.golang.org/grpc",
