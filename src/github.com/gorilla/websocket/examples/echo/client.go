@@ -2,6 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+//go:build ignore
 // +build ignore
 
 package main
@@ -38,7 +39,6 @@ func main() {
 	done := make(chan struct{})
 
 	go func() {
-		defer c.Close()
 		defer close(done)
 		for {
 			_, message, err := c.ReadMessage()
@@ -55,6 +55,8 @@ func main() {
 
 	for {
 		select {
+		case <-done:
+			return
 		case t := <-ticker.C:
 			err := c.WriteMessage(websocket.TextMessage, []byte(t.String()))
 			if err != nil {
@@ -63,8 +65,9 @@ func main() {
 			}
 		case <-interrupt:
 			log.Println("interrupt")
-			// To cleanly close a connection, a client should send a close
-			// frame and wait for the server to close the connection.
+
+			// Cleanly close the connection by sending a close message and then
+			// waiting (with timeout) for the server to close the connection.
 			err := c.WriteMessage(websocket.CloseMessage, websocket.FormatCloseMessage(websocket.CloseNormalClosure, ""))
 			if err != nil {
 				log.Println("write close:", err)
@@ -74,7 +77,6 @@ func main() {
 			case <-done:
 			case <-time.After(time.Second):
 			}
-			c.Close()
 			return
 		}
 	}

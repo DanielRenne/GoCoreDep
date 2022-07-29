@@ -68,7 +68,7 @@
 				"github.com/dgrijalva/jwt-go": "63734eae1ef55eaac06fdc0f312615f2e321e273",
 				"github.com/cloudfoundry/gosigar": "d9ee2f6269aeeed93de1cb3ed3ea03b80e82221e",
 				"github.com/gin-gonic/contrib": "547e518040cfb96576b507d2f26779ab9c6fc829",
-				"github.com/gorilla/websocket": "e8f0f8aaa98dfb6586cbdf2978d511e3199a960a",
+				"github.com/gorilla/websocket": "9111bb834a68b893cebbbaed5060bdbc1d9ab7d2",
 				"github.com/go-stack/stack": "100eb0c0a9c5b306ca2fb4f165df21d80ada4b82",
 				"github.com/coreos/bbolt": "af9db2027c98c61ecd8e17caa5bd265792b9b9a2",
 				"github.com/denisenkom/go-mssqldb": "fbf0a491e5ec011522c8870da9b0553135e2f9da",
