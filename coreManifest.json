@@ -63,7 +63,7 @@
         "github.com/davidrenne/zeroconf": "6d4d3bb3ecab49dad467721705817a85989f4133",
         "github.com/tatsushid/go-fastping": "d7bb493dee3e090e2ffb6914adddf17c1e7c026c",
         "github.com/DanielRenne/mangosServer": "97d567a0f5904cba90fe68830777b316075f0baf",
-        "github.com/davidrenne/mangosServer": "550506a114016c24f9597a70e03a85373e6343b8",
+        "github.com/davidrenne/mangosServer": "26948077cfdc344187a1ed77059a145fd8e9cd70",
         "github.com/davidrenne/reflections": "010f7c1fcf36e9e91db7739efb10ecf59a0d9053",
         "xojoc.pw/useragent": "52903803fc66eef0fce52f158ea57bb3b3feacfe",
         "github.com/dgrijalva/jwt-go": "63734eae1ef55eaac06fdc0f312615f2e321e273",
