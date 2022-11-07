@@ -4,6 +4,7 @@
       "version": "master",
       "releaseURL": "https://github.com/DanielRenne/GoCoreDep/archive/master.zip",
       "revs": {
+        "nanomsg.org/go-mangos": "35524806ef1f245dca998164419389798cc2a6fd",
         "github.com/rivo/uniseg": "7c32f2777c42637c1fa1e104ac45c6d47d9dcb30",
         "github.com/forPelevin/gomoji": "9d94a53df4adc810fa6ca7bc0c3e34601fac62f7",
         "github.com/davidrenne/fxml": "751a3306a56c5b94354e21688e0195e05e8e42ad",
@@ -140,6 +141,7 @@
         "src/github.com/jehiah/go-strftime",
         "src/github.com/googleapis/gax-go/v2",
         "src/cloud.google.com/go",
+        "src/nanomsg.org/go-mangos",
         "src/github.com/inconshreveable/log15",
         "src/golang.org/x/time",
         "src/golang.org/x/sync",
