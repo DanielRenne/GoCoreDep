@@ -17,10 +17,10 @@ require (
 	go.opencensus.io v0.22.0
 	golang.org/x/exp v0.0.0-20191002040644-a1355ae1e2c3
 	golang.org/x/lint v0.0.0-20190930215403-16217165b5de
-	golang.org/x/net v0.0.0-20190620200207-3b0461eec859
+	golang.org/x/net v0.7.0
 	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
-	golang.org/x/text v0.3.2
-	golang.org/x/tools v0.0.0-20191010171213-8abd42400456
+	golang.org/x/text v0.7.0
+	golang.org/x/tools v0.1.12
 	google.golang.org/api v0.9.0
 	google.golang.org/genproto v0.0.0-20191009194640-548a555dbc03
 	google.golang.org/grpc v1.21.1
